@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+
+
+}
+body{
+    height: 400vh;
+}
+
+.header-flex{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(33, 30, 36);
+    width: 100%;
+    height: 4.6rem;
+    z-index: 10;
+}
+.haeader-main,.header-flex{
+    position:fixed;
+}
+.header-sections a{
+    position:relative;
+    top: 1.5rem;
+    left: 5rem;
+      color: aliceblue;
+      text-decoration: none;
+      padding-left:3.2rem;
+      font-family: sans-serif;
+  
+}
+.header-sections a:hover{
+    color: red;
+}
+.header-sections-one-img{
+    position: absolute;
+    left: 1.5rem;
+    top:1.5rem;
+
+}
+.header-background-image{
+    padding-top:45rem;
+    width: 100%;
+    height: 100vh;
+    background-image: url('Images/header/water.png.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.section-2{
+    display: flex;
+    width: 100%;
+   height: auto;
+}
+
+.wings-image{
+    width: 50rem;
+    transform:rotate;
+-ms-transform:rotate;
+-webkit-transform:rotate;
+
+
+}
+.wings-image {
+    width: 7rem;
+    height: 22rem;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.img-div{
+    margin-left: 15rem;
+    margin-top: 28rem;
+}
+.bailley-img{
+    position: relative;
+    right: 13rem;
+    bottom: 9rem;
+}
+.div-s-two-1{
+    background-color:rgba(80,13,119,255);
+    height: 65rem;
+}
+.right-side-section2{
+    margin-left: 8rem;
+    margin-top: 9rem;
+}
+.right-side-section2,h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 34px;
+    font-weight:400;
+    color:rgba(80,13,119,255);
+}
+.right-side-p p{
+    font-size: 25px;
+    margin-top: 2rem;
+    line-height: 29px;
+    
+
+}
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 15rem;
+}
+.footer-p-text{
+   margin-top: 3rem;
+}
+.footer-p-text p{
+    font-family: sans-serif;
+    font-size:13px;
+
+}
+.footer-p-text span{
+    font-family:monospace;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+.footer-p-text span:hover{
+    color: red;
+    text-decoration: underline;
+}
+.footer-icons{
+    margin-top:10px;
+    font-size:1.5rem ;
+}
+.footer-p-text .footer-icons i:hover{
+    color: red;
+   
+}
+
